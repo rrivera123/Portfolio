@@ -1,0 +1,50 @@
+
+<!--   END OF PAGE SPECIFIC CONTENT   -->
+
+<!-- ###############  FOOTER  ############### -->
+
+<footer class="footer text-center" id="contact">
+    <div class="container pt-5 pb-lg-5">
+        <div class="row">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Location</h4>
+                <p class="lead mb-0">
+                    Greater Seattle Area
+                    <br/>
+                    Washington State
+                </p>
+            </div>
+            <!-- FOOTER SOCIAL ICONS-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Around the Web</h4>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/rrivera123"><i class="fab fa-fw fa-github"></i></a>
+            </div>
+            <!-- FOOTER CONTACT-->
+            <div class="col-lg-4">
+                <h4 class="text-uppercase mb-4">Contact Me</h4>
+                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.linkedin.com/in/ryandrivera/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="mailto:ryandrivera@gmail.com"><i class="far fa-lg fa-envelope"></i></a>
+            </div>
+            <!-- CREATED BY TEXT -->
+            <div class="col text-center pt-3">
+                <p class="text-muted">Created By Ryan Rivera | <a class="link text-muted" id="adminlink" href="http://rrivera.greenriverdev.com/my-portfolio/admin.php">Admin</a></p>
+            </div>
+        </div>
+    </div><!--END CONTAINER-->
+</footer>
+
+<!--    SCRIPTS    -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+<script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+<script src="js/navbar.js"></script>
+<? echo $jsscript ?>
+<script>
+    $('#guestbook-table').DataTable({
+        'scrollX': true
+    });
+</script>
+</body>
+</html>

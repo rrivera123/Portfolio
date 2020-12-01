@@ -1,0 +1,45 @@
+<!--
+    Desc:   This file contains HTML markup for rrivera.greenriverdev.com
+    Author: Ryan Rivera
+    Date:   11/6/20
+    File:   header.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title> <?echo $page_title ?> </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" >
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/png" href="images/r2-favicon.png">
+</head>
+<body id="page-top">
+
+<!-- ###############  NAVBAR  ############### -->
+
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top mb-5">
+    <div class="container">
+        <!--    NAVBAR LEFT LINK    -->
+        <a class="navbar-brand" href="<?php echo $index_link ?>">Ryan Rivera </a>
+        <!--    NAVBAR RIGHT LINKS    -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#toggleNav" aria-controls="toggleNav"
+                aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--    NAVBAR COLLAPSE    -->
+        <div class="collapse navbar-collapse" id="toggleNav">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link ml-auto" href="<?echo $about_link ?>">About</a>
+                <a class="nav-item nav-link ml-auto" href="<?echo $resume_link ?>">Resume</a>
+                <a class="nav-item nav-link ml-auto" href="<?echo $projects_link ?>">Projects</a>
+                <a class="nav-item nav-link ml-auto" href="<?echo $contact_link ?>">Contact</a>
+                <a class="nav-item nav-link ml-auto" href="<?echo $guestbook_link ?>">Guestbook</a>
+            </div>
+        </div>
+    </div><!--END CONTAINER-->
+</nav>
+
+<!--   BEGINNING OF PAGE SPECIFIC CONTENT   -->

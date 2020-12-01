@@ -1,0 +1,59 @@
+/*
+    Desc:   This file contains CSS styling for index.php and it's associated pages
+    Author: Ryan Rivera
+    Date:   11/6/20
+    File:   styles.css
+*/
+
+/**********   STRUCTURAL STYLES **********/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 50px;
+}
+
+#about, #resume, #projects, #contact {
+    scroll-margin-top: 1.5em;
+}
+
+/**********   COLOR STYLES **********/
+.projects-heading, .project-section, .about-section, .guestbook_form{
+    color: #ffffff;!important;
+    background-color: #457b9d;!important;
+}
+
+.resume-heading, .resume-section, .contact-heading, .contact-section, .masthead
+{
+    color: #1d3557;!important;
+    background-color: #f1faee;!important;
+}
+
+.footer,.navbar{
+    background-color: #1d3557;!important;
+    color: #f9fcf9;!important;
+}
+
+.card, .card-body{
+    background-color: transparent;
+}
+
+/**********   NAVBAR STYLES **********/
+.nav-link:hover {
+    color: white!important;
+}
+
+form {
+    max-width: 760px;!important;
+    margin-left: auto;!important;
+    margin-right: auto;!important;
+}
+
+.form-check-label {
+    padding-right: 5px;!important;
+}
+
+.err-text {
+    color: #ff0000;!important;
+}
